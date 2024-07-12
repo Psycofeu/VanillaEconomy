@@ -10,6 +10,7 @@ Commandes
 ---------- STAFF -----------
 * [X] /givemoney (player) (money)
 * [X] /takemoney (player) (money)
+* [X] /setmoney (player) (money)
 
 ## CONFIGURATION
 
