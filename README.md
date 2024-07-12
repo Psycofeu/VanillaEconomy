@@ -6,6 +6,7 @@ Commandes
 * [X] /seemoney (player)
 * [X] /topmoney
 * [X] /pay (player) (money)
+
 ---------- STAFF -----------
 * [X] /givemoney (player) (money)
 * [X] /takemoney (player) (money)
@@ -82,19 +83,19 @@ no_permission: "§c- §fYou dont have permission §c{permission}§f !"
 For Dev:
 ### SetMoney
 ```PHP
-        vanillaAPI::getInstance()->setMoney($player, $money);
+vanillaAPI::getInstance()->setMoney($player, $money);
 ```
 ### addMoney
 ```PHP
-        vanillaAPI::getInstance()->addMoney($player, $money);
+vanillaAPI::getInstance()->addMoney($player, $money);
 ```
 ### removeMoney
 ```PHP
-        vanillaAPI::getInstance()->removeMoney($player, $money);
+vanillaAPI::getInstance()->removeMoney($player, $money);
 ```
 ### getMoney
 ```PHP
-        vanillaAPI::getInstance()->seeMoney($player);
+vanillaAPI::getInstance()->seeMoney($player);
 ```
 
 contacts:
